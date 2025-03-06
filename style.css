@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    display: flex;
+    justify-content: space-bewteen;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding: 10px 5px 10px 5px;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#average {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.list {
+    text-align: center;
+}
+
+#price {
+    padding: 0 0 0 25px;
+}
