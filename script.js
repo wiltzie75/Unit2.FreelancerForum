@@ -54,7 +54,7 @@ function render() {
 function averagePrice() {
     const total = freelancers.reduce((sum, freelancer) => sum + freelancer.price, 0)
     const avgPrice = total / freelancers.length;
-    document.getElementById("average").textContent = `The average price is $${avgPrice.toFixed(2)}`;
+    document.getElementById("average").textContent = `The starting average price is $${avgPrice.toFixed(2)}`;
 }
 
 const addFreelancerInterval = setInterval(() => {
@@ -64,4 +64,5 @@ const addFreelancerInterval = setInterval(() => {
 }, 3000);
 
 render();
+averagePrice();
 
